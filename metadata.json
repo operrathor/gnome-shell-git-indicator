@@ -1,0 +1,8 @@
+{
+  "name": "Git Indicator",
+  "description": "git status indicator",
+  "uuid": "gsgi@operrathor.net",
+  "shell-version": [
+    "3.34"
+  ]
+}
