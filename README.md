@@ -1,6 +1,6 @@
 # Git indicator
 
-Indicates whether there are local changes or not.
+Indicates whether or not there are local changes to a Git repository.
 
 ## Screenshots
 
