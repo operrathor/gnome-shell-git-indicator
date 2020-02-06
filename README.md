@@ -10,6 +10,12 @@ Local changes:
 
 ![Indicating that there are local changes](screenshots/changes.png)
 
+## Installation
+
+```sh
+git clone https://github.com/operrathor/gnome-shell-git-indicator.git ~/.local/share/gnome-shell/extensions/git-indicator@operrathor.net
+```
+
 ## Configuration
 
 Set `REPOSITORY_PATH` in `extension.js`.
