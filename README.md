@@ -41,7 +41,7 @@ Proceed with configuration.
 
 * (mandatory) `path`: Absolute path to local Git repository
 * (optional) `name`: Name shown in the popup menu (if left empty, path is shown)
-* (optional) `nowarning`: If set to true, the repository won't cause a warning icon to be shown on the panel (default is false)
+* (optional) `noWarning`: If set to true, the repository won't cause a warning icon to be shown on the panel (default is false)
 
 ### Example
 
