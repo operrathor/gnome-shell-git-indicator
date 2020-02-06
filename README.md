@@ -1,5 +1,7 @@
 # Git indicator
 
+Indicates whether there are local changes or not.
+
 ## Screenshots
 
 Clean working tree, nothing to commit:
