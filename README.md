@@ -72,3 +72,4 @@ If the output of `git status -s` is empty, the working tree seems to be clean an
 
 * Repository configuration only via JSON
 * Change of configuration requires restart of GNOME Shell
+* Icons depend on selected icon theme
