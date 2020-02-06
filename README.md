@@ -16,11 +16,11 @@ Local changes:
 git clone https://github.com/operrathor/gnome-shell-git-indicator.git ~/.local/share/gnome-shell/extensions/git-indicator@operrathor.net
 ```
 
-Afterwards, enable the extension via `gnome-shell-extension-prefs` or Tweaks.
+Afterwards, restart Gnome Shell and enable the extension via `gnome-shell-extension-prefs` or Tweaks.
 
 ## Configuration
 
-Set `REPOSITORY_PATH` in `extension.js` and restart Gnome Shell.
+Set `REPOSITORY_PATH` in `~/.local/share/gnome-shell/extensions/git-indicator@operrathor.net/extension.js` and restart Gnome Shell.
 
 ## How it works
 
