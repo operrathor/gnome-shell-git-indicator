@@ -1,5 +1,5 @@
 {
-  "name": "Git Indicator",
+  "name": "Git indicator",
   "description": "Git status indicator",
   "uuid": "git-indicator@operrathor.net",
   "shell-version": [
