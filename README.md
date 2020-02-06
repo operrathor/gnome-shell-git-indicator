@@ -23,9 +23,6 @@ If there's at least one with local changes, you'll see the warning icon on the p
 
 ```sh
 git clone https://github.com/operrathor/gnome-shell-git-indicator.git ~/.local/share/gnome-shell/extensions/git-indicator@operrathor.net
-```
-
-```sh
 touch ~/.local/share/gnome-shell/extensions/git-indicator@operrathor.net/repositories.json
 ```
 
@@ -37,14 +34,14 @@ Proceed with configuration.
 
 ### Steps
 
-1. Update `~/.local/share/gnome-shell/extensions/git-indicator@operrathor.net/repositories.json`
+1. Update `~/.local/share/gnome-shell/extensions/git-indicator@operrathor.net/repositories.json` (see options and example below)
 2. Restart GNOME Shell
 
 ### Options
 
 * (mandatory) `path`: Absolute path to local Git repository
 * (optional) `name`: Name shown in the popup menu (if left empty, path is shown)
-* (optional) `nowarning`: If set to true, the repository won't cause a warning icon to be shown on the panel
+* (optional) `nowarning`: If set to true, the repository won't cause a warning icon to be shown on the panel (default is false)
 
 ### Example
 
