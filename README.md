@@ -21,9 +21,9 @@ If there's at least one with local changes, you'll see the warning icon on the p
 
 ## Installation
 
-```sh
-git clone https://github.com/operrathor/gnome-shell-git-indicator.git ~/.local/share/gnome-shell/extensions/git-indicator@operrathor.net
-touch ~/.local/share/gnome-shell/extensions/git-indicator@operrathor.net/repositories.json
+```console
+$ git clone https://github.com/operrathor/gnome-shell-git-indicator.git ~/.local/share/gnome-shell/extensions/git-indicator@operrathor.net
+$ touch ~/.local/share/gnome-shell/extensions/git-indicator@operrathor.net/repositories.json
 ```
 
 Afterwards, restart Gnome Shell and enable the extension via `gnome-shell-extension-prefs` or Tweaks.
