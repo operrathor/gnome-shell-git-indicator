@@ -1,4 +1,4 @@
-# Git indicator
+# Git Indicator
 
 Indicates whether or not there are local changes to Git repositories.
 
@@ -39,8 +39,9 @@ Proceed with configuration.
 
 ### Options
 
-* (mandatory) `path`: Absolute path to local Git repository
-* (optional) `name`: Name shown in the popup menu (if left empty, path is shown)
+* (mandatory) `gitDir`: Absolute path to the repository (".git" directory)
+* (mandatory) `workTree`: Absolute path to the working tree
+* (optional) `name`: Name shown in the popup menu (if left empty, `gitDir` is shown)
 * (optional) `noWarning`: If set to true, the repository won't cause a warning icon to be shown on the panel (default is false)
 
 ### Example
@@ -49,11 +50,13 @@ Proceed with configuration.
 ```json
 [
     {
-        "path": "/home/operrathor/University/2nd",
+        "gitDir": "/home/operrathor/University/2nd/.git",
+        "workTree": "/home/operrathor/University/2nd",
         "name": "~/University/2nd"
     },
     {
-        "path": "/home/operrathor/.dotfiles",
+        "gitDir": "/home/operrathor/.dotfiles",
+        "workTree": "/home/operrathor",
         "name": "dotfiles",
         "noWarning": true
     }
@@ -63,6 +66,8 @@ Proceed with configuration.
 Since `noWarning` is set on the `dotfiles` repository, changes to this repository alone won't cause a warning icon to be shown on the panel:
 
 ![Repository with local changes but noWarning set](screenshots/no-warning.png)
+
+Also note that `dotfiles`' `gitDir` doesn't point to a `.git` directory as it's a bare Git repository.
 
 ## How it works
 

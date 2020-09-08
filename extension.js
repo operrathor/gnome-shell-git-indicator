@@ -56,7 +56,7 @@ let GitIndicator = class GitIndicator extends PanelMenu.Button {
 
         this.menuItems = [];
         for (let i = 0; i < this.repositories.length; i++) {
-            const menuItemName = this.repositories[i].name ? this.repositories[i].name : this.repositories[i].path;
+            const menuItemName = this.repositories[i].name ? this.repositories[i].name : this.repositories[i].gitDir;
             const menuItem = new PopupMenu.PopupImageMenuItem(menuItemName, initIcon);
             this.menu.addMenuItem(menuItem);
             this.menuItems.push(menuItem);
@@ -68,7 +68,7 @@ let GitIndicator = class GitIndicator extends PanelMenu.Button {
     update() {
         let warning = false;
         for (let i = 0; i < this.repositories.length; i++) {
-            const cmd = 'git --git-dir=' + this.repositories[i].path + '/.git --work-tree=' + this.repositories[i].path + ' status -s';
+            const cmd = 'git --git-dir=' + this.repositories[i].gitDir + ' --work-tree=' + this.repositories[i].workTree + ' status -s';
             const [res, out] = GLib.spawn_command_line_sync(cmd);
             if (out.length) {
                 this.menuItems[i].setIcon(outOfSyncIcon);
