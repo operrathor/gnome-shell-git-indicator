@@ -39,7 +39,7 @@ Proceed with configuration.
 
 ### Options
 
-* (mandatory) `gitDir`: Absolute path to the repository (".git" directory)
+* (mandatory) `gitDir`: Absolute path to the repository (`.git` directory in case of a non-bare Git repository)
 * (mandatory) `workTree`: Absolute path to the working tree
 * (optional) `name`: Name shown in the popup menu (if left empty, `gitDir` is shown)
 * (optional) `noWarning`: If set to true, the repository won't cause a warning icon to be shown on the panel (default is false)
