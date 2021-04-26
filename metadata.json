@@ -4,6 +4,8 @@
   "uuid": "git-indicator@operrathor.net",
   "shell-version": [
     "3.34",
-    "3.36"
+    "3.36",
+    "3.38",
+    "40"
   ]
 }

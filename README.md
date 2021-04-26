@@ -26,7 +26,7 @@ $ git clone https://github.com/operrathor/gnome-shell-git-indicator.git ~/.local
 $ touch ~/.local/share/gnome-shell/extensions/git-indicator@operrathor.net/repositories.json
 ```
 
-Afterwards, restart Gnome Shell and enable the extension via `gnome-shell-extension-prefs` or Tweaks.
+Afterwards, restart GNOME Shell and enable the extension via `gnome-shell-extension-prefs` or Tweaks.
 
 Proceed with configuration.
 
